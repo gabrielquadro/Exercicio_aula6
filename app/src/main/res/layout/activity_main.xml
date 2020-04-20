@@ -12,21 +12,14 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:onClick="cliqueBotao1"
-        android:text="Exercício 1 - tabela times"
+        android:text="Exercício 1 e 2 - tabela times alternando cores"
         />
     <Button
         android:id="@+id/botao2"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:onClick="cliqueBotao2"
-        android:text="Exercício 2s"
-        />
-    <Button
-        android:id="@+id/botao3"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:onClick="cliqueBotao3"
-        android:text="Exercício 3"
+        android:text="Exercício 2 - Spinner com cores"
         />
 
 </LinearLayout>

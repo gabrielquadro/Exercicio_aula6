@@ -20,8 +20,8 @@ public class MainActivity extends AppCompatActivity {
     }
 
     public void cliqueBotao2(View view) {
+        Intent intent = new Intent(this, ExercicioSpinner.class);
+        startActivity(intent);
     }
 
-    public void cliqueBotao3(View view) {
-    }
 }

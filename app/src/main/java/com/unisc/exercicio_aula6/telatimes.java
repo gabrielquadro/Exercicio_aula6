@@ -1,7 +1,9 @@
 package com.unisc.exercicio_aula6;
 
 import android.app.ListActivity;
+import android.content.Intent;
 import android.os.Bundle;
+import android.view.View;
 import android.widget.ListView;
 import android.widget.SimpleAdapter;
 
@@ -34,8 +36,15 @@ public class telatimes extends ListActivity {
             lista.add(mpa);
         }
 
-        SimpleAdapter adpter = new SimpleAdapter(this, lista, R.layout.line_item,de,para);
+        SimpleAdapter adpter = new MeuAdptador(this, lista, R.layout.line_item,de,para);
         ListView listView = getListView();
         listView.setAdapter(adpter);
     }
+
+    public void voltarClique2(View view) {
+        Intent intent = new Intent(this, MainActivity.class);
+        startActivity(intent);
+    }
+
+
 }

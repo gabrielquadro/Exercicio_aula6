@@ -4,11 +4,17 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".telatimes">
+    android:orientation="vertical"
+    tools:context=".ExercicioSpinner">
 
-    <ListView
-        android:id="@android:id/list"
+    <Spinner
+        android:id="@+id/spinner"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content" />
+        android:layout_height="wrap_content"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="voltarClique"
+        android:text="VOLTAR"/>
 
 </LinearLayout>
